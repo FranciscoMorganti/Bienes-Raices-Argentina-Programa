@@ -37,6 +37,10 @@ nav ul{
     justify-content: space-between;
 }
 
+a:hover{
+    color: #00ECD7;
+}
+
 main{
     height: 45%;
     padding: 0 20%;
