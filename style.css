@@ -11,15 +11,15 @@ html, body{
 }
 
 header{
+    height: 45%;
     padding: 0 20%;
     background-color: #777;
-    height: 45%;
 }
 
 h1{
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
 }
 
@@ -43,7 +43,16 @@ main{
 }
 
 footer{
-    padding: 0 20%;
     height: 10%;
+    padding: 0 20%;
     background-color: #777;
+}
+
+@media screen and (max-width: 900px){
+    nav{
+        width: 50%;
+    }
+    main{
+        height: fit-content;
+    }
 }
